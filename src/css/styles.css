@@ -10,6 +10,11 @@
 - Dark Grayish Blue: hsl(210, 10%, 33%)
 - Grayish Blue: hsl(201, 11%, 66%) */
 
+/* === Font === */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* === General === */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,7 +24,68 @@
 
 body {
     font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.download-button {
+    padding-right: 6rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+    
 }
 
 /* === DOWNLOAD AREA === */
+
+#download-area {
+    /* background-image: url(./src/images/bg-header-mobile.png); */
+    background-image: url(../images/bg-header-mobile.png);
+    background-position: 100% -10%;
+    background-repeat: no-repeat;
+    
+}
+
+
+#flex-container {
+    display: flex;
+}
+
+#flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+#background-image-container img {
+    margin-bottom: 1rem;
+}
+
+#download-area-header {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+#download-area-text {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#download-for-iOS {
+    background-color: hsl(171, 66%, 44%);
+    color: #FFF;
+    box-shadow:  0 0 .5em hsl(171, 66%, 44%);
+}
+
+#download-for-mac {
+    background-color: hsl(233, 100%, 69%);
+    color: #FFF;
+    box-shadow:  0 0 .5em hsl(233, 100%, 69%);
+}
+
 
