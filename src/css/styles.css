@@ -49,6 +49,16 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.header-margin {
+    margin-top: 7rem;
+}
+
+.image-sizing {
+    width: 85%;
+    height: auto;
+    margin-bottom: 2rem;
+} 
+
 
 
 /* === DOWNLOAD AREA === */
@@ -97,10 +107,6 @@ body {
     margin-top: 4.5rem;
 }
 
-#computer-image {
-    width: 85%;
-    height: auto;
-    margin-bottom: 2rem;
-} 
+
 
 
