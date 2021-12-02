@@ -36,6 +36,21 @@ body {
     
 }
 
+.text-header {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.paragraph-text {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
 /* === DOWNLOAD AREA === */
 
 #download-area {
@@ -47,11 +62,11 @@ body {
 }
 
 
-#flex-container {
+.flex-container {
     display: flex;
 }
 
-#flex-items {
+.flex-items {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,18 +78,6 @@ body {
     margin-bottom: 1rem;
 }
 
-#download-area-header {
-    text-align: center;
-    color: hsl(210, 10%, 33%);
-}
-
-#download-area-text {
-    text-align: center;
-    color: hsl(201, 11%, 66%);
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin-bottom: 1.5rem;
-}
 
 #download-for-iOS {
     background-color: hsl(171, 66%, 44%);
@@ -87,5 +90,17 @@ body {
     color: #FFF;
     box-shadow:  0 0 .5em hsl(233, 100%, 69%);
 }
+
+/* === KEEP TRACK OF YOUR SNIPPETS === */
+
+.track-header {
+    margin-top: 4.5rem;
+}
+
+#computer-image {
+    width: 85%;
+    height: auto;
+    margin-bottom: 2rem;
+} 
 
 
