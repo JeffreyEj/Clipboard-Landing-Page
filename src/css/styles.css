@@ -60,7 +60,6 @@ body {
 } 
 
 
-
 /* === DOWNLOAD AREA === */
 
 #download-area {
@@ -84,7 +83,7 @@ body {
     gap: 2rem;
 }
 
-#background-image-container img {
+.background-image-container img {
     margin-bottom: 1rem;
 }
 
@@ -112,6 +111,34 @@ body {
 
 .company-flex {
     justify-content: center;
+}
+
+/* === FOOTER === */
+
+#clipboard-footer {
+    background-color: hsl(201, 11%, 86%);
+    margin-top: 9rem;
+}
+
+.footer-container {
+    justify-content: center;
+}
+
+.image-sizing-fix {
+    width: 40%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.icon-container {
+    justify-content: center;
+    
+}
+
+.icon-items {
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 
