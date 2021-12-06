@@ -27,6 +27,17 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .download-button {
     padding-right: 6rem;
     padding-left: 6rem;
@@ -70,21 +81,19 @@ body {
     
 }
 
-
-.flex-container {
-    display: flex;
+.download-items {
+    padding-top: 6rem;
 }
 
-.flex-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
-    gap: 2rem;
-}
 
 .background-image-container img {
     margin-bottom: 1rem;
+}
+
+.button-container {
+    justify-content: center;
+    padding-top: 2rem;
+    
 }
 
 
@@ -140,6 +149,39 @@ body {
     margin-top: 4rem;
     margin-bottom: 3rem;
 }
+
+/* === MEDIA QUERIES === */
+
+@media (min-width: 376px) {
+    #download-area {
+        /* background-image: url(./src/images/bg-header-mobile.png); */
+        background-image: url(../images/bg-header-desktop.png);
+        background-position: 100% -10%;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+@media (min-width: 1440px) {
+    .download-container {
+        justify-content: center;
+    }
+    .button-container{
+        margin-bottom: 4rem;
+    }
+    .button-items {
+        flex-direction: row;
+    }
+    .download-button {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        border-radius: 2rem;
+        
+    }
+}
+
 
 
 
