@@ -68,7 +68,11 @@ body {
     width: 85%;
     height: auto;
     margin-bottom: 2rem;
-} 
+}
+
+.color-footer {
+    color: hsl(201, 11%, 66%);
+}
 
 
 /* === DOWNLOAD AREA === */
@@ -137,6 +141,7 @@ body {
     width: 40%;
     height: auto;
     padding-bottom: 1rem;
+    padding-top: 3rem;
 }
 
 .icon-container {
