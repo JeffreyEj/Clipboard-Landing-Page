@@ -108,6 +108,7 @@ body {
     margin-bottom: 1rem;
 }
 
+
 .button-container {
     justify-content: center;
     padding-top: 2rem;
@@ -190,12 +191,18 @@ body {
    
 }
 
+/*  1440px Laptop L media */
+
 @media (min-width: 1440px) {
     .download-container {
         justify-content: center;
     }
     .button-container{
         margin-bottom: 4rem;
+    }
+
+    .clipboard-paragraph {
+        text-align: center!important;
     }
     .button-items {
         flex-direction: row;
@@ -225,6 +232,10 @@ body {
 
     .keep-track-header-container {
         justify-content: center;
+    }
+
+    .keep-track-paragraph {
+        text-align: center;
     }
 
     .grid-container {
