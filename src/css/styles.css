@@ -139,10 +139,6 @@ body {
     margin-top: 4rem;
 }
 
-.supercharge-items {
-    gap: 2rem;
-}
-
 
 /* === COMPANY-AREA === */
 
@@ -254,6 +250,70 @@ body {
     .pc {
         width: 100%;
         height: auto;
+    }
+
+    .access-clipboard-container {
+        justify-content: center;
+    }
+
+    .access-paragraph {
+        text-align: center;
+    }
+
+    .supercharge-header-container {
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .supercharge-container {
+        justify-content: center;
+    }
+
+    .supercharge-items {
+        flex-direction: row;
+    }
+
+    .supercharge-icons {
+        margin-left: 2rem;
+    }
+
+    .blacklist-items {
+        gap: 2rem;
+    }
+
+    .blacklist-icon {
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .blacklist-header {
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .blacklist-paragraph {
+        text-align: center;
+        line-height: 2rem;
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .snippets-items {
+        gap: 2rem;
+    }
+
+    .snippets-paragraph {
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .preview-items {
+        gap: 2rem;
+    }
+
+    .preview-paragraph {
+        text-align: center;
+        line-height: 2rem;
     }
     
 }
