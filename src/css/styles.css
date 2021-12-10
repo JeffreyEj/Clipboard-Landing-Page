@@ -326,6 +326,16 @@ body {
         text-align: center;
         line-height: 2rem;
     }
+
+    .company-items {
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .dowload-area-2-paragraph{
+        text-align: center;
+        line-height: 2rem;
+    }
     
 }
 
