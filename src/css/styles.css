@@ -65,7 +65,14 @@ body {
     margin-top: 7rem;
 }
 
-.image-sizing {
+
+.image-sizing{
+    width: 85%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.image-sizing-devices {
     width: 85%;
     height: auto;
     margin-bottom: 2rem;
@@ -157,7 +164,6 @@ body {
     margin-top: 9rem;
 }
 
-
 .image-sizing-fix {
     width: 50px;
     height: auto;
@@ -204,14 +210,27 @@ body {
         background-image: url(../images/bg-header-desktop.png);
         background-position: 100% -10%;
         background-repeat: no-repeat;
-        
     }
+    
    
+}
+
+@media (min-width: 425px) {
+    .image-sizing-devices {
+        width: 40%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
 }
 
 /*  1440px Laptop L media */
 
 @media (min-width: 1440px) {
+    .image-sizing-devices {
+        width: 85%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
     .download-container {
         justify-content: center;
     }
