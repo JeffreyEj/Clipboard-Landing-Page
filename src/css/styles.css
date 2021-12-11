@@ -185,6 +185,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    justify-content: center;
 
 }
 
@@ -203,6 +204,8 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 3rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-text > p:hover {
@@ -415,6 +418,14 @@ body {
         gap: 1.5rem;
         padding-bottom: 0;
         padding-top: 0;
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 3rem;
+        justify-content: unset;
+        align-items: unset;
     }
 
     #footer-text-1 {
