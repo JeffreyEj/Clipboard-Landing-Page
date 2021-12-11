@@ -130,11 +130,23 @@ body {
     box-shadow:  0 0 .5em hsl(171, 66%, 44%);
 }
 
+#download-for-iOS:hover {
+    box-shadow:  0 0 .9em hsl(171, 89%, 45%);
+    cursor: pointer;
+}
+
 #download-for-mac {
     background-color: hsl(233, 100%, 69%);
     color: #FFF;
     box-shadow:  0 0 .5em hsl(233, 100%, 69%);
+    cursor: pointer;
 }
+
+#download-for-mac:hover {
+    box-shadow:  0 0 .9em hsl(233, 100%, 69%);
+    cursor: pointer;
+}
+
 
 /* === KEEP TRACK OF YOUR SNIPPETS === */
 
@@ -189,18 +201,24 @@ body {
 
 .footer-text {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     line-height: 3rem;
 }
 
-
+.footer-text > p:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
 .icon-items {
     flex-direction: row;
     margin-top: 2rem;
     margin-bottom: 3rem;
     gap: 2.5rem;
+}
+
+.twitter-logo:hover {
+    filter: invert(0.34) sepia(1) saturate(1.9) hue-rotate(122.4deg) brightness(1);
+    cursor: pointer;
 }
 /* === MEDIA QUERIES === */
 
