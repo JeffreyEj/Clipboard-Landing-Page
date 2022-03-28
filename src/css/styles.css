@@ -247,6 +247,14 @@ body {
 /*  1440px Laptop L media */
 
 @media (min-width: 1440px) {
+    #download-area {
+        /* background-image: url(./src/images/bg-header-mobile.png); */
+        background-image: url(../images/bg-header-mobile.png);
+        background-position: 100% -10%;
+        background-repeat: repeat-x;
+
+        bottom: 2rem;
+    }
     .image-sizing-devices {
         width: 85%;
         height: auto;
@@ -478,14 +486,6 @@ body {
 
 @media (min-width:1920px) {
 
-    #download-area {
-        /* background-image: url(./src/images/bg-header-mobile.png); */
-        background-image: url(../images/bg-header-mobile.png);
-        background-position: 100% -10%;
-        background-repeat: repeat-x;
-        
-    }
-
     .grid-footer {
         display: grid;
         grid-template-columns: 100px 100px 120px 130px 100px 200px 300px 200px;
@@ -509,14 +509,6 @@ body {
 
 
 @media (min-width:2560px) {
-
-    #download-area {
-    /* background-image: url(./src/images/bg-header-mobile.png); */
-    background-image: url(../images/bg-header-mobile.png);
-    background-position: 100% -10%;
-    background-repeat: repeat-x;
-    
-}
 
     .grid-footer {
         display: grid;
